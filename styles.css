@@ -1,0 +1,169 @@
+body {
+
+	background:url(images/brickwall.png);
+}
+
+main, .secondary, .tertiary {
+
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+h3 {
+
+	color:#ea55bb;
+
+}
+
+p {
+	text-align:left;
+	color:#3f3f3f;
+}
+
+/*Layout
+----------------------------------*/
+
+h1 {
+
+	font-family: 'Lobster', cursive;
+	float:right;
+	font-size:75px;
+
+}
+
+h2 {
+
+	color:#212121;
+
+}
+.contact {
+
+	float:right;
+	font-size:20px;
+	font-family: 'Open Sans', sans-serif;
+	list-style:none;
+	margin-top:-1.5em;
+	margin-bottom:2em;
+
+
+}
+
+.contact li {
+
+	display:inline;
+}
+
+
+.container {
+
+	margin:0 auto;
+	width:88%;
+	max-width:960px;
+	background:rgba(255,255,255,0.4);
+	padding:2em;
+
+}
+
+.profile {
+
+	display:block;
+	float:right;
+	font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.skills {
+
+	display:block;
+	float:right;
+	font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.position1 {
+
+		list-style:none;
+		color:#ea55bb;
+		font-weight:bold;
+		margin-left:-2.5em;
+}
+
+.position2 {
+
+		list-style:none;
+		color:#55a6ea;
+		font-weight:bold;
+		margin-left:-2.5em;
+}
+
+footer {
+
+	font-family: 'Open Sans', sans-serif;
+	display:block;
+}
+/*Media Queries--------*/
+
+@media screen and (min-width:600px) {
+
+	main {
+		width:45%;
+		float:left;
+	}
+
+	.secondary {
+		width:40%;
+		float:right;
+
+	}
+
+	footer {
+		display:block;
+		margin:2em 0;
+		float:right;
+
+	}
+
+	.list {
+		float:left;
+		width:40%;
+
+	}
+
+	.info {
+		float:right;
+		width:45%;
+	}
+
+	.reference1 {
+
+		float:left;
+		width:30%;
+		margin-right:4em;
+	}
+
+ 	.reference2 {
+
+		float:left;
+		width:30%;
+
+	}
+	.reference3 {
+
+		float:right;
+		width:30%;
+	}
+	
+} /*Need this bracket!---*/
+
+/* Misc.
+------------------------------------------*/
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height: 0;
+	clear:both;
+	visibility:hidden;
+}
